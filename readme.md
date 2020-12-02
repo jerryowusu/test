@@ -6,6 +6,3 @@
 
 # hi
 
-# how are you
-
-# kwame
