@@ -4,24 +4,33 @@
 
 <head>
     <meta charset="utf-8">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.css" />
+
+
     
 </head>
 
 <body>
 
     <main role="main">
-        <div>
-            <h1>Apple pie
+        <div class="container">
+
+
+            <h1 >Apple pie
                 <small>Our famous, number-one selling pie.</small>
             </h1> 
+
             
-            <div >
-                <div>
-                    <img src="images/products/applepie.jpg" alt="Image of apple pie">
+            <div class='row'>
+
+                <div class="col-md-8">
+                    <img src="images/products/applepie.jpg" alt="Image of apple pie" class="rounded img-fluid" width='500' alt="Image of apple pie">
                 </div>
 
-                <div>
+                <div class="col-md-4">
                     <h3>About this pie</h3>
                     <p>Sweet ice cream jelly beans lemon drops. Pastry toffee fruitcake gingerbread jelly-o.
                         Lollipop sesame snaps muffin. Macaroon halvah marshmallow sesame snaps sugar plum dragée.
@@ -33,20 +42,46 @@
                         <li>Eggs</li>
                         <li>Milk</li>
                     </ul>
-                    <div>
-                        <div>
+                    <div class="row">
+                        <div class="col-md-4">
                             <strong>$14.95</strong>
                         </div>
-                        <div >
-                            <a type="button" href="shoppingbasket.html">
+                        <div  class="col-md-8 ">
+                            <a type="button" href="shoppingbasket.html" class="btn btn-info float-right" >
                                 Add to basket
                             </a>
                         </div>
                     </div>
                 </div>
+
+                <h3>Other customers also bought</h3>
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <a href="applepie.html" >
+                            <img class="img-fluid"src="images/products/strawberrypiesmall.jpg" alt="">
+                        </a>
+                    </div>
+                      <div class="col-md-3 col-sm-6">
+                        <a href="applepie.html" >
+                            <img class="img-fluid"src="images/products/rhubarbpiesmall.jpg" alt="">
+                        </a>
+                    </div>  <div class="col-md-3 col-sm-6">
+                        <a href="applepie.html" >
+                            <img class="img-fluid"src="images/products/peachpiesmall.jpg" alt="">
+                        </a>
+                    </div>  <div class="col-md-3 col-sm-6">
+                        <a href="applepie.html" >
+                            <img class="img-fluid"src="images/products/cranberrypiesmall.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
+        <div data-provide='calendar'></div>
     </main>
+    <script src="https://unpkg.com/js-year-calendar@latest/dist/js-year-calendar.min.js"></script>
+
+
 </body>
 
 </html>
